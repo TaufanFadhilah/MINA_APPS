@@ -6,15 +6,15 @@
                     <li class="side-nav-header">Navigation</li>
                     
                      <li>
-                        <a href="msg-inbox.html">
+                        <a href="{{url('listSchedules')}}">
                             <i class="fs-calendar"></i> 
                             <span class="nav-text">Schedules</span>
-                             <span class="badge bg-danger">0</span> 
+                             <span class="badge bg-danger">2</span> 
                         </a>
                     </li> 
 
                     <li>
-                        <a href="msg-inbox.html">
+                        <a href="{{url('showAbsents/'.session()->get('id'))}}">
                             <i class="fs-checkbox"></i> 
                             <span class="nav-text">Absent</span>
                         </a>

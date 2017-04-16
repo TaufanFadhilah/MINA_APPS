@@ -41,7 +41,7 @@
                     <i class="ti-align-left"></i>
                 </button>
 
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="{{url('home')}}">
                     <img src="{{asset('images/logo-w.svg')}}">
                     <span>Big Ben</span>
                 </a>
@@ -190,31 +190,25 @@
 
 	<script type="text/javascript" src="{{asset('plugins/lib/jquery-2.2.4.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('plugins/lib/jquery-ui.min.js')}}"></script>
-
     <script type="text/javascript" src="{{asset('plugins/bootstrap/bootstrap.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('plugins/lib/plugins.js')}}"></script>
     
-    <!-- <script type="text/javascript" src="{{asset('plugins/flot/excanvas.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('plugins/flot/excanvas.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('plugins/flot/jquery.flot.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('plugins/flot/jquery.flot.tooltip.js')}}"></script>
     <script type="text/javascript" src="{{asset('plugins/flot/jquery.flot.resize.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('plugins/flot/jquery.flot.crosshair.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('plugins/flot/jquery.flot.time.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('plugins/flot/curvedLines.js')}}"></script>
+    <script type="text/javascript" src="{{asset('plugins/flot/jquery.flot.orderBars.js')}}"></script>
     <script type="text/javascript" src="{{asset('plugins/flot/jquery.flot.pie.min.js')}}"></script>
-    
-    <script type="text/javascript" src="{{asset('plugins/lib/sparklines.js')}}"></script>
-    <script type="text/javascript" src="{{asset('plugins/lib/jquery.knob.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('plugins/monthly/js/monthly.js')}}"></script>
-    <script type="text/javascript" src="{{asset('plugins/emojionearea/emojionearea.min.js')}}"></script>
-
-    <script type="text/javascript" src="{{asset('js/app.base.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/cmp-todo.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/page-dashboard.js')}}"></script> -->
 
     <script type="text/javascript" src="{{asset('plugins/fullcalendar/moment.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('plugins/year-calendar/js/bootstrap-year-calendar.min.js')}}"></script>
     
     <script type="text/javascript" src="{{asset('js/app.base.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/page-yearCalendar.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/chart-plot.js')}}"></script>
     @yield('js')
 </body>
 </html>

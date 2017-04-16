@@ -15,7 +15,7 @@ class CreateFishCategoriesTable extends Migration
     {
         Schema::create('fish_categories', function (Blueprint $table) {
             $table->increments('id_fish_category');
-            $table->string('name');
+            $table->string('name')->unique();
             $table->text('description');
             $table->integer('price');
             $table->string('photo');

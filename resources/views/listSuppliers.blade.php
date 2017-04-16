@@ -32,7 +32,7 @@
 	                	 	<td>{{$row->telp}}</td>
 	                	 	<td>{{$row->address}}</td>
 	                	 	<td>{{$row->email}}</td>
-	                	 	<td>{{$row->photo}}</td>
+	                	 	<td><img src="{{asset('images/img/nestle.png')}}" class="img-thumbnail" style="max-height: 100px;max-width: 200px"></td>
 	                	 	<td>
 	                	 		<button class="btn btn-warning" title="Edit"><i class="di di-edit"></i></button>
 	                        	<a href="{{url('deleteSuppliers/'.$row->id)}}"><button class="btn btn-danger" title="Delete"><i class="di di-trash"></i></button></a>

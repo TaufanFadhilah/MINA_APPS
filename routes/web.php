@@ -61,3 +61,6 @@ Route::get('/createFishes', 'FishesController@create')->middleware('auth');
 Route::get('/listTransactions', 'TransactionsController@index')->middleware('auth');
 Route::get('/deleteTransactions/{id}', 'TransactionsController@destroy')->middleware('auth');
 Route::get('/createTransactions', 'TransactionsController@create')->middleware('auth');
+
+//Absents
+Route::get('/showAbsents/{id}', 'AbsentsController@show')->middleware('auth');

@@ -30,7 +30,7 @@
 	                	 	<td>{{$row->name}}</td>
 	                	 	<td>{{$row->description}}</td>
 	                	 	<td>Rp. {{$row->price}}</td>
-	                	 	<td>{{$row->photo}}</td>
+	                	 	<td><img src="{{asset('images/img/fish.jpg')}}" class="img-thumbnail img-responsive" style="max-height: 100px;max-width: 200px"></td>
 	                	 	<td>
 	                	 		<button class="btn btn-warning" title="Edit"><i class="di di-edit"></i></button>
 	                        	<a href="{{url('deleteFishes/'.$row->id_fish_category)}}"><button class="btn btn-danger" title="Delete"><i class="di di-trash"></i></button></a>

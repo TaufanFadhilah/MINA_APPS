@@ -21,6 +21,7 @@
 	                        <th>Position</th>
 	                        <th>Address</th>
 	                        <th>Register at</th>
+	                        <th>Photo</th>
 	                        <th>Action</th>
 	                    </tr>
 	                </thead>
@@ -33,6 +34,7 @@
 	                        <td>{{$row->user_status->name}}</td>
 	                        <td>{{$row->user_data->address}}</td>
 	                        <td>{{$row->register_at}}</td>
+	                        <td><img class="img-thumbnail" src="{{asset('demo/users/img-user-01.jpg')}}" style="width: 150px;height: 150px;margin-top: 10px"></td>
 	                        <td>
 	                        	<button class="btn btn-warning" title="Edit"><i class="di di-edit"></i></button>
 	                        	<a href="{{url('deleteEmployees/'.$row->id_employee)}}"><button class="btn btn-danger" title="Delete"><i class="di di-trash"></i></button></a>

@@ -39,7 +39,7 @@ return [
             'prefix' => '',
         ],
         //LOCAL
-        /*'mysql' => [
+        'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
@@ -51,11 +51,11 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
-        ],*/
+        ],
 
-        'mysql' => [
+        /*'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '31.170.166.227'),
+            'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'u412236089_mina'),
             'username' => env('DB_USERNAME', 'u412236089_root'),
@@ -65,7 +65,7 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
-        ],
+        ],*/
 
         'pgsql' => [
             'driver' => 'pgsql',
