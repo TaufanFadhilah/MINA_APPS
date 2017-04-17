@@ -42,8 +42,8 @@
                 </button>
 
                 <a class="navbar-brand" href="{{url('home')}}">
-                    <img src="{{asset('images/logo-w.svg')}}">
-                    <span>Big Ben</span>
+                    <img src="{{asset('images/img/logo1.png')}}">
+                    <span>MINA APPS</span>
                 </a>
 
                 <ul class="nav navbar-nav-xs">  <!-- START: Responsive Top Right tool bar -->
@@ -142,7 +142,6 @@
                             <li><a href="{{url('calendar')}}"><i class="sli-calendar"></i> Calendar</a></li>
                             <li><a href="{{url('inbox')}}"><i class="fa fa-envelope-o"></i> Inbox</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="{{url('faq')}}"><i class="sli-question"></i> FAQ's</a></li>
                             <li><a href="{{ url('destroySession')}}"><i class="sli-logout"></i> Logout</a>
                             </li>
                         </ul>

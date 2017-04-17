@@ -22,9 +22,6 @@ Route::get('calendar',function(){
 Route::get('inbox',function(){
 	return view('inbox');
 });
-Route::get('faq',function(){
-	return view('faq');
-});
 //Session
 Route::get('/createSession', 'SessionController@create');
 Route::get('/destroySession', 'SessionController@destroy');

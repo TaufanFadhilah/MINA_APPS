@@ -25,16 +25,16 @@
             <div class="panel-body">
                 <ul class="list-flow-info">
                     <li class="col-xs-4 text-primary">
-                        <h3>Followers</h3>
-                        <h4>2753</h4>
+                        <h3>Position</h3>
+                        <h4>{{session()->get('status')}}</h4>
                     </li>
                     <li class="col-xs-4 text-info">
-                        <h3>Posts</h3>
-                        <h4>381</h4>
+                        <h3>City</h3>
+                        <h4>Bandung</h4>
                     </li>
                     <li class="col-xs-4 text-success">
-                        <h3>Following</h3>
-                        <h4>1946</h4>
+                        <h3>ID</h3>
+                        <h4>{{session()->get('id')}}</h4>
                     </li>
                 </ul>
             </div>
@@ -130,7 +130,7 @@
         <div class="panel panel-default">
             <div class="panel-body">
                 <h4>About</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget odio nulla. Quisque sem tortor, sodales in felis non, sodales volutpat velit. Nullam quis quam et elit sollicitudin congue. Morbi eu lobortis ligula. Quisque volutpat, lorem ut interdum venenatis, urna ex dictum enim, non vulputate tellus dolor ut enim.</p>
+                <p>My name is {{session()->get('name')}}. my friends call me deni.I was born in Bandar Lampung, december  18th 1993. I'm 22 years old. I am the first child of 3 siblings. My little sister named Hani she is number two. And the third is my young brother Irfan. I am son of couple bambang Hasim and Junaida.</p>
                 
                 <form class="form-horizontal basic-info">
                     

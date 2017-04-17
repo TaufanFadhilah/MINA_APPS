@@ -21,7 +21,7 @@
     <!-- Login Div Start Here -->
     <div class="login animated flipInY" id="logindiv">   
         <div class="text-center logo">
-            <img src="{{asset('images/logo-c.svg')}}" alt="logo">
+            <img src="{{asset('images/img/logo2.png')}}" alt="logo">
         </div>
 
         <form class="form-horizontal" role="form" method="POST" action="{{ route('login') }}">
